@@ -1,6 +1,6 @@
-# 🔐 SSH Log Analyzer – Failed Login Detection
+ SSH Log Analyzer – Failed Login Detection
 
-## 🧠 Description
+ Description
 
 This Python script analyzes SSH authentication logs (`auth.log`) to detect and report failed login attempts from various IP addresses. It flags possible brute-force attacks when an IP has three or more failures. If the log file isn't found, it uses embedded sample data for testing purposes.
 
@@ -8,7 +8,7 @@ This tool is useful for security monitoring, basic intrusion detection, and prac
 
 ---
 
-## 📂 How It Works
+ How It Works
 
 - Scans for lines containing `Failed password`.
 - Extracts the IP address from each failed login attempt.
@@ -18,7 +18,7 @@ This tool is useful for security monitoring, basic intrusion detection, and prac
 
 ---
 
-## 🔐 Use Case
+ Use Case
 
 This project was built as part of my journey into cybersecurity and log analysis. It's ideal for:
 - Practicing **regex and file handling** in Python.
@@ -28,5 +28,5 @@ This project was built as part of my journey into cybersecurity and log analysis
 
 ---
 
-## ✅ Sample Output
+
 
