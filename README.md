@@ -1,0 +1,1 @@
+This Python script analyzes SSH authentication logs (auth.log) to detect and report failed login attempts from various IP addresses. It flags possible brute-force attacks when an IP has three or more failures. If the log file isn't found, it uses embedded sample data for testing purposes.
